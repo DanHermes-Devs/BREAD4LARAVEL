@@ -1,0 +1,30 @@
+{
+    "name": "dan-hermes/bread-for-laravel",
+    "description": "Una herramienta BREAD para Laravel",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DanHermes\\BreadForLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DanHermes\\BreadForLaravel\\BreadForLaravelServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Dan Hermes",
+            "email": "danheremes2019@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
