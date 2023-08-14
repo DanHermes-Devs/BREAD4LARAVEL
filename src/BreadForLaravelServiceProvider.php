@@ -4,7 +4,7 @@ namespace DanHermes\BreadForLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
-class MyLaravelPackageServiceProvider extends ServiceProvider
+class BreadForLaravelServiceProvider extends ServiceProvider
 {
     public function boot()
     {
