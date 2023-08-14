@@ -1,6 +1,6 @@
 <?php
 
-namespace TuNamespace\MyLaravelPackage;
+namespace DanHermes\BreadForLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
