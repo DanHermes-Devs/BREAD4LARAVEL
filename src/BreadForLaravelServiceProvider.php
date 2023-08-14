@@ -40,11 +40,12 @@ class BreadForLaravelServiceProvider extends ServiceProvider
             // ], 'commands');
 
             // Definimos los diferentes grupos de publicables
-            $migrations = [__DIR__.'/src/Migrations' => database_path('migrations')];
+            $migrations = [__DIR__.'/Migrations' => database_path('migrations')];
             $views = [__DIR__.'/../resources/views' => resource_path('views/vendor/bread-for-laravel')];
-            $models = [__DIR__.'/src/Models' => app_path('Models')];
-            $controllers = [__DIR__.'/src/Controllers' => app_path('Http/Controllers')];
-            $commands = [__DIR__.'/src/Commands' => app_path('Console/Commands')];
+            $models = [__DIR__.'/Models' => app_path('Models')];
+            $controllers = [__DIR__.'/Controllers' => app_path('Http/Controllers')];
+            $commands = [__DIR__.'/Commands' => app_path('Console/Commands')];
+
 
             // Publica por separado
             $this->publishes($migrations, 'migrations');
