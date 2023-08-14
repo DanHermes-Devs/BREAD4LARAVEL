@@ -68,7 +68,7 @@ class BreadForLaravelServiceProvider extends ServiceProvider
             // php artisan vendor:publish --tag=commands
 
             // Carga las rutas
-            $this->loadRoutesFrom(__DIR__.'/src/Routes/routes.php');
+            $this->loadRoutesFrom(__DIR__.'/Routes/routes.php');
         }
 
     }
