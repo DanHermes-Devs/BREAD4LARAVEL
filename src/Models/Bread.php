@@ -13,6 +13,6 @@ class Bread extends Model
 
     public function permissions()
     {
-        return $this->hasMany(DanHermes\BreadForLaravel\Models\Permission::class);
+        return $this->hasMany(Permission::class);
     }
 }

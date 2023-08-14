@@ -11,7 +11,7 @@ class Role extends Model
 
     public function permissions()
     {
-        return $this->belongsToMany(DanHermes\BreadForLaravel\Models\Permission::class, 'role_permission', 'role_id', 'permission_id'); 
+        return $this->belongsToMany(Permission::class, 'role_permission', 'role_id', 'permission_id'); 
         // Nota: Si tienes una tabla intermedia personalizada (por ejemplo, "permission_role"), 
         // y usas columnas personalizadas para las claves foráneas, asegúrate de incluirlas 
         // como se muestra arriba. Si no es así, puedes omitir esos argumentos.

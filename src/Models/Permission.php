@@ -14,7 +14,7 @@ class Permission extends Model
     public function roles()
     {
         // Si Role es parte de tu paquete, ajusta el namespace aquí
-        return $this->belongsToMany(DanHermes\BreadForLaravel\Models\Role::class); 
+        return $this->belongsToMany(Role::class); 
         // Si Role es parte de tu paquete, cambia `Role::class` a `DanHermes\BreadForLaravel\Models\Role::class`
     }
 }
