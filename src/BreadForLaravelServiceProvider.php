@@ -3,6 +3,7 @@
 namespace DanHermes\BreadForLaravel;
 
 use Illuminate\Support\ServiceProvider;
+use DanHermes\BreadForLaravel\Commands\MakeBread;
 
 class BreadForLaravelServiceProvider extends ServiceProvider
 {
