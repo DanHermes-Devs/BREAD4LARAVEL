@@ -1,0 +1,30 @@
+{
+    "name": "danhermes/bread-for-laravel",
+    "description": "Una herramienta BREAD para Laravel",
+    "license": "MIT",
+    "version": "1.0.0",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Dan Hermes",
+            "email": "danhermes2019@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Danhermes\\BreadForLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "require-dev": {
+        "orchestra/testbench": "6.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Danhermes\\BreadForLaravel\\BreadForLaravelServiceProvider"
+            ]
+        }
+    }
+}
