@@ -95,7 +95,7 @@ final class ExternalLinkProcessor
     /**
      * @internal This method is only public so we can easily test it. DO NOT USE THIS OUTSIDE OF THIS EXTENSION!
      *
-     * @param non-empty-string|list<non-empty-string> $compareTo
+     * @param mixed $compareTo
      */
     public static function hostMatches(string $host, $compareTo): bool
     {

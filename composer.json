@@ -2,7 +2,7 @@
     "name": "danhermes/bread-for-laravel",
     "description": "Una herramienta BREAD para Laravel",
     "license": "MIT",
-    "version": "1.1.0",
+    "version": "1.0.0",
     "type": "package",
     "authors": [
         {
@@ -16,7 +16,7 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": false,
+    "prefer-stable": true,
     "require-dev": {
         "orchestra/testbench": "6.x-dev"
     },
